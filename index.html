@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Zoom</title>
 </head>
@@ -12,8 +14,8 @@
 
     <!-- Header -->
     <header>
-        <div class="speaker">Speaker View</div>
-        <div class="header-icon">Icona</div>
+        <div class="speaker"><i class="fa-solid fa-table-cells"></i> Speaker View</div>
+        <div class="header-icon"><i class="fa-solid fa-maximize"></i></div>
     </header>
 
     <!-- Main che scrollerà-->
@@ -23,7 +25,33 @@
 
     <!-- Footer -->
     <footer>
+        <!-- Nav sinistra -->
+        <div class="blocco-sx">
+            <ul>
+                <li>
+                    <a href="#"><i class="fa-solid fa-microphone"></i></a>
+                    <br>
+                    Mute
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-video"></i></a></i>
+                    <br>
+                    Stop Video
+                </li>
+            </ul>
+        </div>
         
+
+        <!-- Nav centrale-->
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-user-plus"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-user-group"></i></a></li>
+            </ul>
+        </nav>
+
+        <!-- Nav sinistra -->
+        <div id="end-meeting">End meeting</div>
     </footer>
 </body>
 </html>
