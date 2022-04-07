@@ -37,6 +37,8 @@ header {
 main {
     height: calc(100vh - 95px);
     border: 4px solid red;
+    background-color: black;
+    overflow-y: auto;
 }
 
 /* Footer */
@@ -49,8 +51,13 @@ footer {
 }
 
 .blocco-sx {
-    width: 10%;
+    width: 15%;
+    /* debug */
+    background-color: aqua;
+}
 
+nav {
+    width: 55%;
     /* debug */
     background-color: aqua;
 }
@@ -66,11 +73,13 @@ footer ul {
 }
 
 footer i {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #end-meeting {
-    
+    color: red;
     background-color: gray;
 }
+
+
 
