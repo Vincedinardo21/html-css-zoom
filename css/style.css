@@ -14,6 +14,11 @@ i {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Header */
 header {
     display: flex;
@@ -24,7 +29,6 @@ header {
 
 .speaker, .header-icon {
     background-color: gray;
-    /* color: white; */
     padding: 5px;
     border-radius: 5px;
 }
@@ -40,13 +44,13 @@ main {
     flex-wrap: wrap;
     height: calc(100vh - 95px);
     padding: 20px;
-    border: 4px solid red;
     background-color: black;
     overflow-y: auto;
 }
 
 .container {
     height: 150px;
+    margin: 3px;
     position: relative;
 }
 
@@ -69,14 +73,10 @@ footer {
 
 .blocco-sx {
     width: 15%;
-    /* debug */
-    /* background-color: aqua; */
 }
 
 nav {
     width: 60%;
-    /* debug */
-    /* background-color: aqua; */
 }
 
 footer ul {
@@ -94,8 +94,12 @@ footer i {
 }
 
 #end-meeting {
-    color: red;
     background-color: gray;
+    padding: 23px; 
+}
+
+#end-meeting a {
+    color: red;
 }
 
 .fa-share-from-square{
